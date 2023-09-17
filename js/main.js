@@ -1,5 +1,5 @@
 "use strict";
-var Roles = ["Javasript/Typescript", "C#/ASP.NET/NodeJS", "Angular/React/Vue", "Amazon Web Service", "MongoDB/MySQL", "UX/UI Design"];
+var Roles = ["Javasript/Typescript", "C#/Java/Python/PHP", "Angular/React", "ASP.NET/Spring/Laravel", "MongoDB/MySQL", "UX/UI Design"];
 var Window = $(window);
 var Slide1 = $('#slide-brand');
 var limit = 300;
