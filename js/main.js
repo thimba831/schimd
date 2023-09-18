@@ -47,6 +47,7 @@ $(document).ready(function () {
     layoutMode: 'masonry',
     filter: '*'
   });
+  $('.filter-list li.aktip').click();
   /*parallax hero */
   $('.jarallax').jarallax({
     speed: 0.5,
