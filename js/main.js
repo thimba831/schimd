@@ -41,12 +41,12 @@ $(document).ready(function () {
     showCursor: true
   });
   /* isotope */
-  $('.porto-content').isotope({
-    resizable: true,
-    itemSelector: '.porto-item',
-    layoutMode: 'masonry',
-    filter: '*'
-  });
+  // $('.porto-content').isotope({
+  //   resizable: false,
+  //   itemSelector: '.porto-item',
+  //   layoutMode: 'masonry',
+  //   filter: '*'
+  // });
   $('.filter-list li.aktip').click();
   /*parallax hero */
   $('.jarallax').jarallax({
