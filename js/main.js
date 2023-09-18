@@ -41,12 +41,14 @@ $(document).ready(function () {
     showCursor: true
   });
   /* isotope */
-  $('.porto-content').isotope({
-    // resizable: false,
-    // itemSelector: '.porto-item',
-    // layoutMode: 'masonry',
-    filter: '*'
-  });
+  setTimeout(() => {
+    $('.porto-content').isotope({
+      resizable: false,
+      itemSelector: '.porto-item',
+      layoutMode: 'masonry',
+      filter: '*'
+    });
+  }, 3000)
   /*parallax hero */
   $('.jarallax').jarallax({
     speed: 0.5,
