@@ -42,7 +42,7 @@ $(document).ready(function () {
   });
   /* isotope */
   $('.porto-content').isotope({
-    resizable: false,
+    resizable: true,
     itemSelector: '.porto-item',
     layoutMode: 'masonry',
     filter: '*'
