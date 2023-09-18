@@ -42,9 +42,9 @@ $(document).ready(function () {
   });
   /* isotope */
   $('.porto-content').isotope({
-    resizable: false,
-    itemSelector: '.porto-item',
-    layoutMode: 'masonry',
+    // resizable: false,
+    // itemSelector: '.porto-item',
+    // layoutMode: 'masonry',
     filter: '*'
   });
   /*parallax hero */
